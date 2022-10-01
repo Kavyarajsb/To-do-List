@@ -1,0 +1,37 @@
+:root{
+    --themeColor1:linear-gradient(to right, #24171f, #303032);
+}
+
+.disabledList{
+    
+    pointer-events:none; 
+    opacity:0.6;        
+
+}
+
+#todoList{
+    border: 30px solid rgb(224, 223, 224);
+    color: black;
+}
+
+#welcomeText{
+    text-align: center;
+    font-size: 6vh;
+    font-weight:normal;
+}
+
+.navbar {
+    height: 9vh;
+    background:var(--themeColor1);
+    color: rgb(211, 202, 202);
+}
+
+.navbar .navbar-brand{
+    margin-left: 1vw;
+    font-size: 4vh;
+}
+
+#logOut{
+    color: white;
+    font-size: 3vh;
+}
